@@ -31,14 +31,14 @@ const lastNumber = numbers[numbers.length - 1]; //with length-1 gives the last e
 
 // Iterating over an array using a for loop
 for (let i = 0; i < numbers.length; i++) {
-  console.log(numbers[i]);
+  console.log("For loop : ",numbers[i]);
 }
 // Here using forloop, we print all the items in the array
 
 
 // Iterating over an array using forEach
 numbers.forEach(number => {
-  console.log(number);
+  console.log("For each Loop : ",number);
 });
 
 // Here we are using for.Each to print the array (name of array is -> numbers) elements 
@@ -73,6 +73,6 @@ console.log("Calling the last value from the array by numbers.length-1 : ",lastN
 console.log("DoubledNumbers array created and values stores by multipling numbers array with 2 : ",doubledNumbers);
 console.log("Even numbers array is : ",evenNumbers);
 console.log("BY using concat we added numbers and moreNumbers arrays : ",combinedNumbers);
-console.log("...numbers,...moreNumbers ",spreadNumbers);
+console.log("...numbers ...moreNumbers : ",spreadNumbers);
 console.log("Calling functions in array and performing operations : ",operationResults);
 

@@ -33,12 +33,14 @@ for (let i = 1; i <= 5; i++) {
   console.log(i);
 }
 
+//While Loop
 console.log("Even numbers from 2 to 10:");
 let j = 2;
 while (j <= 10) { 
   console.log(j);
   j += 2;
 }
+
 
 console.log("Squares of numbers from 1 to 3:");
 let numbers = [1, 2, 3];
