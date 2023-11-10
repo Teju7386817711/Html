@@ -1,0 +1,25 @@
+
+<html>
+<body>
+
+<h1></h1>
+<p></p>
+<p id="class"></p>
+
+<script>
+// object creating
+const person = {
+  firstName: "tejaswini",
+  lastName: "kotagiri",
+  id: 101,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+// Display data from object:
+document.getElementById("class").innerHTML = person.fullName();
+</script>
+
+</body>
+</html>
